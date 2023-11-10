@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+html,body{
+    width: 100%; 
+    height: 100%; 
+    user-select: none;
+    overflow: hidden;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    /* background-color: burlywood; */
+}
+.nav {
+    height: 10%;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    padding: 0 150px;
+    justify-content: flex-start;
+    gap: 55px;
+    font-weight: 100px;
+    position: fixed;
+    z-index: 99; 
+    cursor: pointer;
+    display: flex;
+    padding-top: 2%;
+}
+
+.main {
+    position: relative;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/928/1016/1015/ice-drops-glass-bank-wallpaper-preview.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: top; 
+    
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+}
+.page2 h1 {
+    font-size: 90px;
+    font-weight: 700; 
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center;  
+    -webkit-text-stroke: #000;
+}
+.page2 h2 {
+    font-size: 30px;
+    font-weight: 400;  
+}
+.page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.scroller {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden; 
+    margin-bottom: 4px;
+    
+}
+
+.page2 marquee {
+    font-size: 80px;
+    font-weight: 600; 
+    -webkit-text-stroke: 2px #fff ;
+    color: transparent;
+}
+
+.main i {
+    font-size: 30px;
+    padding-left: 95%;
+    
+}
+
+
+
+
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 600px) {
+    /* Your styles for small screens go here */
+  }
+  
+  /* Small Devices (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Your styles for medium screens go here */
+    .nav {
+        height: 10%;
+        width: 100%;
+        /* background-color: grey; */
+        display: flex;
+        justify-content: flex-start;
+        /* gap: 55px; */
+        font-weight: 100px;
+        position: fixed;
+        cursor: pointer;
+        display: flex;
+        padding-top: 10px;
+    }
+    
+  }
+  
+  /* Medium Devices (tablets and small desktops) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for medium screens go here */
+  }
+  
+  /* Large Devices (desktops) */
+  @media only screen and (max-width: 1292px) {
+    /* Your styles for large screens go here */.
+  
+}
